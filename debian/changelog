@@ -1,3 +1,9 @@
+pve-edk2-firmware (2.20200531-1-rpve1) pve; urgency=medium
+
+  * Added ARM 32-bit EL build
+
+ -- Tim <tim.j.wilkinson@gmail.com>  Mon, 07 Jun 2021 14:55:40 -0700
+
 pve-edk2-firmware (2.20200531-1) pve; urgency=medium
 
   * update sources to upstream edk2-stable202005 tag

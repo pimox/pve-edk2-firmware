@@ -4,7 +4,9 @@ Priority: optional
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Build-Depends: bc,
                debhelper (>= 11),
+               gcc-arm-linux-gnueabi,
                gcc-aarch64-linux-gnu,
+               gcc-x86-64-linux-gnu,
                iasl,
                nasm,
                python,
