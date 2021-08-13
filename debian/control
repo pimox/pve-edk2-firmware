@@ -9,7 +9,8 @@ Build-Depends: bc,
                gcc-x86-64-linux-gnu,
                iasl,
                nasm,
-               python,
+               python3,
+               python3-distutils,
                uuid-dev,
 Homepage: http://www.tianocore.org
 Standards-Version: 4.1.3

@@ -16,6 +16,9 @@ export $(EDK2_TOOLCHAIN)_AARCH64_PREFIX=aarch64-linux-gnu-
 export $(EDK2_TOOLCHAIN)_ARM_PREFIX=arm-linux-gnueabi-
 export $(EDK2_TOOLCHAIN)_BIN=x86_64-linux-gnu-
 
+export PYTHON3_ENABLE="TRUE"
+export PYTHON_COMMAND="python3"
+
 ifeq ($(DEB_BUILD_ARCH),amd64)
 	EDK2_BUILD_ARCH=X64
 endif
